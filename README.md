@@ -1,7 +1,12 @@
-<img width="497" alt="image" src="https://github.com/user-attachments/assets/8d2d29f9-6613-49b5-b3d1-4f5c4ca5c1cd" />
+<img width="497" alt="image" src="https://github.com/user-attachments/assets/8d2d29f9-6613-49b5-b3d1-4f5c4ca5c1cd" /><br>
+
+
 <strong>What does your java program do?</strong>
 <p>I have created a Spring Boot Application called as Task Management. The spring boot application allows us to add tasks including information about the title, description, status, createdDate as well as dueDate of the task. It also allows us to fetch tasks based on the status of the task.The application makes the use of Postgres db to store the data about tasks.</p>
-
+<br><br>
+<strong>Logging method used?</strong>
+<p>This project uses SLF4J (Simple Logging Facade for Java), which is the default logging framework in Spring Boot.The Logger instance is created using SLF4J and LoggerFactory.Log level like INFO is used to track the general application behaviour</p>
+<br><br>
 <strong>What does each docker image do?</strong>
 <p>There are two docker images being used in this project:
   <ol>
@@ -9,7 +14,7 @@
     <li>spring boot image-->Which is used to run the desired spring boot application which then further connects and accesses the data from db.</li>
   </ol>
 </p>
-
+<br><br>
 <strong>APIs exposed and details of API's?</strong>
 <p>
   <ol>
